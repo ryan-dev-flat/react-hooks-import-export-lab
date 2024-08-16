@@ -1,6 +1,6 @@
 import React from "react";
 import {username, city} from "../data/user"
-export default function Home() {
+function Home() {
   return (
     <div id="home">
       <h1>
@@ -12,4 +12,4 @@ export default function Home() {
 console.log(username);
 console.log(city);
 
-
+export default Home
